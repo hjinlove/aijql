@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>永不分离</title>
+
+</head>
+<style>
+    body {
+        width: 100vh;
+        height: 100vh;
+        background: -webkit-linear-gradient(left bottom, rgb(191, 49, 158), rgb(192, 101, 249), rgb(97, 107, 245));
+        background: -o-linear-gradient(left bottom, rgb(230, 84, 84), rgb(191, 49, 158)), rgb(49, 96, 213);
+        background: -moz-linear-gradient(left bottom, red, rgb(191, 49, 158), rgb(43, 37, 220));
+        background: linear-gradient(left bottom, rgb(242, 107, 116), rgb(201, 93, 248), rgb(99, 115, 239));
+        display: table-cell;
+        vertical-align: middle;
+        color: rgb(250, 248, 248);
+
+
+    }
+
+    div {
+        font-family: 华文彩云;
+    }
+
+    /* iloveyou */
+    p {
+        color: #04cafb;
+        font-family: "华文彩云";
+        align-content: center;
+        font-size: 5vh;
+        font-weight: 5vh;
+
+
+    }
+
+    * {
+        font-family: 华文彩云;
+    }
+
+    html {
+        display: table;
+        width: 100%;
+        height: 100vh;
+        table-layout: fixed;
+    }
+
+    /* 
+    body {
+        display: table-cell;
+        width: 100%;
+        height: 100vh;
+        vertical-align: middle;
+        font-family: '华文彩云';
+        color: rgb(250, 248, 248);
+    } */
+
+    .wrapper {
+        width: 500px;
+        height: 500px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]+label {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        display: inline-block;
+        position: absolute;
+        /* text-align: center; */
+        font-size: 100px;
+        transition: all 1s ease;
+    }
+
+    label {
+        text-shadow: 8px 8px 30px rgba(243, 243, 243, 0.5);
+    }
+
+    label:hover {
+        color: #c32a2a;
+        cursor: pointer;
+    }
+
+    #I+label,
+    #love+label {
+        border-radius: 50px;
+        top: 0;
+    }
+
+    #I:checked+label,
+    #love:checked+label,
+    #you:checked+label {
+        background: #c32a2a;
+        font-size: 0;
+        transition: all 1s ease;
+    }
+
+    #I:checked+label,
+    #love:checked+label {
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        line-height: 300px;
+    }
+
+    #I+label {
+        left: 0;
+    }
+
+    #love+label {
+        right: 0;
+    }
+
+    #you+label {
+        bottom: 0;
+        left: 50%;
+        margin: 0 -50px;
+    }
+
+    #you:checked+label {
+        width: 275px;
+        height: 275px;
+        bottom: 96px;
+        left: 162px;
+        transform: rotate(45deg);
+        line-height: 27px;
+    }
+
+    span {
+        display: inline-block;
+        /* text-align: center; */
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        margin-left: -100px;
+        width: 200px;
+        font-size: 24px;
+        color: rgb(253, 250, 250);
+    }
+
+    p:hover {
+        color: rgb(219, 118, 46);
+    }
+
+
+
+    h2 {
+        width: 100px;
+        height: 100px;
+    }
+</style>
+
+<body>
+    <h2> </h2>
+
+    <div class="wrapper" font-family:华文彩云；>
+
+        <input type="checkbox" id="I" />
+        <label for="I">金</label>
+        <input type="checkbox" id="love" />
+        <label for="love">秋</label>
+        <input type="checkbox" id="you" />
+        <label for="you">丽</label>
+    </div>
+
+    <h1></h1>
+    <p align="center" font-family:华文彩云；>你是我最想念到女孩</p>
+    <p align="center" font-family:华文彩云；>你是我最喜欢的女孩</p>
+    <p align="center" font-family:华文彩云；>想和你有很好的未来</p>
+    <p style="text-align: right" font-family:华文彩云；>爱你的：侯松伟</p>
+    <p style="text-align: right" font-family:华文彩云；>2022年10月29日</p>
+
+    </div>
+
+</html>
