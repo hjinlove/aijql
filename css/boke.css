@@ -7,7 +7,7 @@
 /*设置整个页面的字体及文字颜色*/
 body {
     font-family: arial, 楷体, serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #a081a9;
     background: #a39eba url(../img/header.jpg) repeat-x left top;
     height: 180px;
@@ -27,7 +27,7 @@ body {
 #header #logo {
     /*后代选择器*/
     color: rgb(108, 96, 96);
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 10px;
     float: left;
     margin-left: 50px;
@@ -111,11 +111,11 @@ ul {
     float: left;
     margin-right: 28px;
 
-    font-size: 24px;
+    font-size: 28px;
     color: #580caa;
     background: url(../img/nav_line.png) no-repeat right top;
     text-align: center;
-    width: 200px;
+    width: 130px;
 }
 
 #nav {
