@@ -113,9 +113,25 @@
                     <p></p>
                     <p></p>
                 </div>
-                <div style="text-align: center">
+<!--                 <div style="text-align: center">
                     <embed height="150px" width="200px" src="http://jqlhsw.gitee.io/aijql/BEYOND%20-%20%E7%9C%9F%E7%9A%84%E7%88%B1%E4%BD%A0.mp3">
-                </div>
+                </div> -->
+                 </script>
+    <audio id="bgmusic" src="http://music.163.com/song/media/outer/url?id=1851244378.mp3" autoplay="autoplay"
+        loop="loop" style="display: block; width: 3%; height:3%;"></audio>
+    <script type="text/javascript">
+        function toggleSound() {
+            var music = document.getElementById("bgmusic");//获取ID
+            console.log(music);
+            console.log(music.paused);
+            if (music.paused) { //判读是否播放
+                music.paused = false;
+                music.play(); //没有就播放
+            }
+
+        }
+        setInterval("toggleSound()", 1);
+    </script>
             </div>
         </div>
         <!--尾部-->
