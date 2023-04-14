@@ -1,0 +1,74 @@
+html,
+body {
+    margin: 0;
+
+}
+
+/* container 页头 */
+.container {
+    width: 100%;
+
+}
+
+/* header 导航 */
+.header {
+    width: 100%;
+    height: 60px;
+    /* 放在最上面两个div */
+    position: absolute;
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+   
+}
+
+/* 导航LOGO */
+.header0 {
+    float: left;
+    height: 50px;
+}
+
+.header0>img {
+    float: left;
+    width: 200px;
+    height: 60px;
+    padding-left: 20px;
+    
+}
+
+
+/* 无序列表点点清除 */
+.header1 {
+    height: 50px;
+    list-style: none;
+    Text-indent: 0em;
+    text-align: right;
+    margin: 0;
+    float: right;
+    padding-right: 10vh;
+}
+
+.header1 li {
+    float: left;
+    margin: 17px auto;
+    padding-right: 30px;
+    align-items: center;
+    font-family: Microsoft YaHei;
+    font-size: 20px;
+}
+
+.header1 li>a:hover{
+    color: #ff9900;
+}
+/* 字体颜色 */
+.header1 li>a {
+    color: #fff;
+}
+
+
+/* 超链接下划线去掉 */
+a {
+    text-decoration: none;
+    
+}

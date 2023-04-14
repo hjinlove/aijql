@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>江南旅游</title>
+    <!-- 页面LOGO -->
+    <link rel="icon" href="../icon/2.png">
+    <!-- 轮播图css -->
+    <link rel="stylesheet" type="text/css" href="../css/wrapper1.css" />
+    <!-- 顶部导航栏left和right -->
+    <link rel="stylesheet" type="text/css" href="../css/nav.css">
+    <script src="../jquery/nav.js"></script>
+    <!-- 页面 -->
+    <link rel="stylesheet" href="../css/onlinereservatuon.css">
+    <!-- 页面底部 -->
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- header 导航 -->
+        <div id="header">
+            <div class="header">
+                <!-- 导航LOGO -->
+                <a class="header0" href="">
+                    <img src="../img/jiangnanlvyou.png" alt="">
+                </a>
+                <!-- right -->
+                <ul class="header1">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="projectcenter.html">服务项目</a></li>
+                    <li><a href="index.html#recommend_four_h1one">新闻中心</a></li>
+                    <li><a href="onlinereservatuon.html">在线预定</a></li>
+                    <li><a href="about_us.html">关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 轮播图 -->
+        <div id="boxhdp">
+            <ul id="img">
+                <li class="current"><img src="../img/ico/1.jpg"></li>
+                <li><img src="../img/ico/2.jpg"></li>
+                <li><img src="../img/ico/1 (6).jpg"></li>
+                <li><img src="../img/ico/1 (2).jpg"></li>
+                <li><img src="../img/ico/3.jpg"></li>
+            </ul>
+            <!-- 轮播小点点 -->
+            <ul id="li">
+                <li class="on"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <!-- 清除浮动 -->
+            <!-- <div style="clear: both;"></div> -->
+            <!-- 轮播翻页 -->
+            <div class="an" id="an">
+                <!-- left -->
+                <a href="javascript:;" id="prev" class="an-a1">＜</a>
+                <!-- right -->
+                <a href="javascript:;" id="next" class="an-a2">＞</a>
+            </div>
+            <!-- 边框字 -->
+            <div id="center_one">
+                <h2>专属路线在线预订</h2>
+
+                <p>选个地方让你的心灵放歌放个假</p>
+
+            </div>
+        </div>
+        <!-- 页面 -->
+        <div class="onlinereservatuon">
+            <div class="onlinereservatuon_one0">
+                <!-- 在线预订 -->
+                <div class="onlinereservatuon_one">
+                    <h1>在线预订</h1>
+                    <p>定制您的专属旅行路线，我们会为您全程服务</p>
+                    <img src="../img/imga/1.png" alt="">
+                </div>
+            </div>
+            <!-- 表单 -->
+            <div class="onlinereservatuon_form">
+                <div class="onlinereservatuon_left">
+                    <div>
+                        <img src="../img/onlinereservatuon/1.png" alt="">
+                        <h1>提交预约表单</h1>
+                        <p>填写好相关预约信息​，点击提交</p>
+                    </div>
+                    <div>
+                        <img src="../img/onlinereservatuon/1.png" alt="">
+                        <h1>旅行线路规划</h1>
+                        <p>根据提交的预约信息对旅行线路进行规划和报价</p>
+                    </div>
+                    <div>
+                        <img src="../img/onlinereservatuon/1.png" alt="">
+                        <h1>支付部分定金</h1>
+                        <p>确定初步方案和报价后，支付部分定金</p>
+                    </div>
+                    <div>
+                        <img src="../img/onlinereservatuon/1.png" alt="">
+                        <h1>确定详细方案</h1>
+                        <p>对方案进行详细规划和沟通</p>
+                    </div>
+                    <div>
+                        <img src="../img/onlinereservatuon/1.png" alt="">
+                        <h1>交付尾款出发</h1>
+                        <p>交付尾款后，出发旅游，保持沟通</p>
+                    </div>
+                </div>
+                <!-- 右边 -->
+                <form action="" enctype="multipart/form-data" method="post">
+                    <div>
+                        <input type="text" name="" placeholder="姓名" required>
+                        <span>*</span>
+                    </div>
+                    <div>
+                        <input type="text" name="" maxlength="11" placeholder="手机号" required>
+                        <span>*</span>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="目的地" required>
+                        <span>*</span>
+                    </div>
+                    <div>
+                        <input type="date" placeholder="出行日期" required>
+                        <span>*</span>
+                    </div>
+                    <div>
+                        <input type="text" maxlength="3" placeholder="出行人数" required>
+                        <span>*</span>
+                    </div>
+                    <div>
+                        <textarea placeholder="备注" name="" id="stwo" cols="23" rows="5"></textarea>
+                    </div>
+                    <div>
+                        <button type="button" ondblclick="alert('提交成功')">提&nbsp;交</button>
+                    </div>
+                </form>
+            </div>
+            <div style="position: relative;"></div>
+        </div>
+        <!-- 底页 -->
+        <div class="footer">
+            <div class="footer_header">
+                <a href="index.html">首页</a><span>|</span>
+                <a href="projectcenter.html">服务项目</a><span>|</span>
+                <a href="./index.html#recommend_four_h1one">新闻中心</a><span>|</span>
+                <a href="onlinereservatuon.html">在线预定</a><span>|</span>
+                <a href="about_us.html">关于我们</a>
+            </div>
+            <h4>江南旅游&nbsp;您的旅游好帮手</h4>
+            <p>jiangnan Your Good Helper Of Tourism</p>
+            <div class="footer_div">2023&nbsp;江南旅游&nbsp;All Right Reserved.&nbsp;&nbsp; 豫ICP备XXXXXXXX号</div>
+        </div>
+    </div>
+</body>
+<!-- 轮播图js -->
+<script src="../js/wrapper.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

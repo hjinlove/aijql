@@ -1,0 +1,136 @@
+/* 在线预定背景 */
+.onlinereservatuon_one0{
+    width: 100%;
+    position: absolute;
+    height: 650px;
+    background-color: transparent;
+    background-image: url(../img/about_us/background1.jpg);
+    background-position: center bottom;
+}
+/* 在线预定 */
+.onlinereservatuon_one{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+/* 在线预定h1字体 */
+.onlinereservatuon_one h1{
+    color: rgb(67, 67, 67);
+    font-family: SimHei;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+/* 在线预定怕p字体 */
+.onlinereservatuon_one p{
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-family: SimHei;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.onlinereservatuon_one img{
+    width: 102px;
+    height: auto;
+}
+
+
+/* 在线预定左右 */
+.onlinereservatuon_form{
+    height: 535px;
+    position: relative;
+    text-align: center;
+    padding-top:  117px; 
+}
+/* 在线预定left */
+.onlinereservatuon_left{
+    position: absolute;
+    margin-top: 53px;
+    
+}
+/* left居左 */
+.onlinereservatuon_left div{
+    text-align: left;
+    margin-bottom: 40px;
+    margin-left: 156px;
+    display: flex;
+}
+/* left图片 */
+.onlinereservatuon_left img{
+    width: auto;
+    height: 35px;
+    top: 0px;
+    left: -6px;
+    position: relative;
+}
+/* left上面字体 */
+.onlinereservatuon_left h1{
+    font-size: 22px;
+    font-family: SimHei;
+    color: rgb(67, 67, 67);
+    margin: 0;
+}
+/* left下面字体 */
+.onlinereservatuon_left p{
+    font-size: 14px;
+    font-family: SimHei;
+    color: rgb(180, 180, 180);
+    position: relative;
+    left: -131px;
+    top: 15px;
+}
+/*在线预定右边 input表单设置 */
+.onlinereservatuon_form form{
+    margin-top: 20px;
+}
+.onlinereservatuon_form input{
+    font-size: 16px;
+    font-family: SimHei;
+    color: rgb(180, 180, 180);
+    width: 502px;
+    height: 42px;
+    margin-top: 10px;
+    position: relative;
+    left: 270px;
+    outline: none;
+    border: 0px;
+    border: 1px solid;
+    border-color: #ff9900;
+}
+/* textarea表单设置 */
+.onlinereservatuon_form textarea{
+    font-size: 16px;
+    font-family: SimHei;
+    color: rgb(180, 180, 180);
+    outline: medium;
+    width: 502px;
+    height: 72px;
+    margin-top: 10px;
+    position: relative;
+    left: 264px;
+    border: 0px;
+    border: 1px solid #ff9900;
+}
+/* 提交按钮button */
+.onlinereservatuon_form button{
+
+    border: 0;
+    width: 500px;
+    height: auto;
+    line-height: 35px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: SimHei;
+    position: relative;
+    left: 264px;
+    background-color: #ff9900;
+    color: #fff;
+}
+
+form>div span{
+    position: relative;
+    left: 267px;
+    top: -11px;
+    color: red;
+    font-size: 20px;
+}

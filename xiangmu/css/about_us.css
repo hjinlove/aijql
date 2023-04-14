@@ -1,0 +1,150 @@
+
+
+/* 带上心灵去旅行 让生活更美好  和  关于我们标题 */
+.about_us_one{
+    text-align: center;
+}
+/* 带上心灵去旅行 让生活更美好  和  关于我们h1 */
+.about_us_one>h1{
+    font-family: SimHei;
+    font-size: 28px;
+    color: rgb(67, 67, 67);
+    margin-bottom:0;
+}
+/* 带上心灵去旅行  让生活更美好  和  关于我们p */
+.about_us_one>p{
+    font-family: SimHei; 
+    color: rgb(102, 102, 102); 
+    font-size: 18px;
+    margin: 5px 0px ;
+}
+/* 带上心灵去旅行  让生活更美好  和  关于我们img */
+.about_us_one>img{
+    width: 159px;
+    height: 31px;
+}
+/* 关于我们 */
+.about_us1 {
+    width: 100%;
+    height: 880px;
+    background-image: url(../img/about_us/background1.jpg);
+    margin: 0;
+}
+/* about_us1_one的布局 */
+.about_us1_one{
+    margin: 0px 10%;
+}
+/* 关于我们后两张图片 */
+.about_us1_one>img{
+    width: 100%;
+    height: 225px;
+}
+.about_us1_one p{
+    line-height: 25.2000007629395px;
+    font-size: 18px; 
+    font-family: 华文细黑; 
+    color: rgb(67, 67, 67);
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.75em;
+}
+
+/* 带上心灵去旅行  让生活更美好 */
+.about_us2 {
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/about_us/background2.jpg);
+    margin: 0;
+}
+/* 文字 */
+.about_us_one0{
+    font-size: 100px; 
+    color: rgb(219, 219, 219);
+    position: absolute;
+    left: 19%;
+    margin-top: -19px;
+}
+/* 地图 */
+#container {
+    width: 448px;
+    height: 279px;
+    border: 1px solid #999;
+    margin-top: 60px;
+    margin-left: 19px;
+}
+/* 联系 */
+.about_us2_tow{
+word-wrap: break-word;
+    padding: 0px;
+    border: 1px solid rgb(204, 204, 204);
+    height: 248px;
+    width: 448px;
+    background-color: transparent;
+    float: right;
+    position: relative;
+    top: -53%;
+    margin-right: 19px;
+}
+/* 联系图片 */
+.about_us2_tow>img{
+width: 300px;
+/* background: -webkit-linear-gradient(left, rgb(0, 223, 223), rgb(20, 162, 241) 95%); */
+height: 90px;
+position: relative;
+left: 68px;
+top: -45px;
+}
+/* 联系文字 */
+.about_us2_tow p{
+    font-size: 22px;
+    color: rgb(102, 102, 102);
+    font-family: SimHei;
+    line-height: 150%;
+    margin: 0;
+    margin-left: 30px;
+    
+}
+/* 不要犹豫 马上出发背景颜色 */
+.about_us3{
+    width: 100%;
+    height: 150px;
+    background: -webkit-linear-gradient(left, rgb(0, 223, 223), rgb(20, 162, 241) 95%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0;;
+}
+/* 不要犹豫 马上出发文字 */
+.about_us3>h2{
+    font-family: SimHei;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-right: 190px;
+}
+/* 立即预约 */
+.about_us3>div{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 41px;
+    transition: all 2s;
+}
+.about_us3>div:hover{
+    border: 2px solid rgba(230,145,56,1);
+}
+/* 立即预约文字 */
+.about_us3 span{
+    font-family: SimHei;
+    font-size: 20px;
+    font-weight: normal;
+    position: relative;
+    left: 23%;
+}
+/* 立即预约超链接 */
+.about_us3 a{
+    color: rgb(255, 255, 255);
+}

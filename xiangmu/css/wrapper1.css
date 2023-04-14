@@ -1,0 +1,106 @@
+body{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	/* background-color: #1F1F1F; */
+}
+li{
+	list-style: none;
+}
+a{ 
+	text-decoration: none;
+}
+img{
+	 width: 100%;
+	 height: 100%;
+	}
+	#img{
+		width: 100%;
+	
+		margin-top: 0;
+	}
+#boxhdp{ 
+	width: 100%; 
+	margin: 0 auto; 
+	overflow: hidden; 
+	position: relative;
+}
+#img>li{ width: 100%; 
+	height: 490px; 
+	float: left; 
+	text-align: center; 
+	display: none;
+	text-indent: -80px;
+	
+}
+#img>.current{
+	display: block;
+}
+#li{position: absolute;
+    left: 47%;
+    bottom: -9px;
+    margin-left: -35px;}
+#li>li{
+	 width: 10px;
+	 height: 10px; 
+	 background-color: #ccc; 
+	 border-radius: 50%;
+	 margin-right: 5px; 
+	 float: left; 
+	 cursor: pointer;
+	}
+#li>.on{
+	 background-color: #f50;
+	}
+#an{ 
+	display: none;
+}
+#an a{
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 40px;
+	height: 40px;
+	background-color: rgba(0,0,0,.3);
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-family: "宋体";
+	font-weight: 600;
+	font-size: 1.2em;
+}
+#an a:hover{
+	background-color: rgba(0,0,0,.8);
+}
+#an .an-a1{ 
+	left: 0;
+}
+#an .an-a2{ 
+	right: 0;
+}
+/* 框图文字 */
+#center_one{
+    word-wrap: break-word;
+    padding: 0px;
+    border: 1px solid rgb(255, 255, 255);
+    height: 178px;
+    width: 498px;
+	background-color: transparent;
+    position: absolute;
+    top: 42%;
+    left: 30%;
+    text-align: center;
+}
+#center_one h2{
+    color: rgb(255, 255, 255);
+    font-family: SimHei;
+    font-size: 50px;
+    line-height: 120px;
+    margin: 5px;
+}
+#center_one p{
+    font-size: 20px;
+    font-family: SimHei;
+    color: rgb(255, 255, 255);
+    margin: 0;
+	padding-top: 5px;
+}

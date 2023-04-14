@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>江南旅游</title>
+    <!-- 页面LOGO -->
+    <link rel="icon" href="../icon/2.png">
+    <!-- 轮播图css -->
+    <link rel="stylesheet" type="text/css" href="../css/wrapper1.css" />
+    <!-- 顶部导航栏left和right -->
+    <link rel="stylesheet" type="text/css" href="../css/nav.css">
+    <script src="../jquery/nav.js"></script>
+    <!-- 页面内容 -->
+    <link rel="stylesheet" href="../css/about_us.css">
+    <!-- 地图 -->
+    <script src="http://api.map.baidu.com/api?type=webgl&v=1.0&ak=MbP0LZvsqwsGfA53LSE4x1tHL4k9Op80"></script>
+    <!-- 页面底部 -->
+    <link rel="stylesheet" href="../css/footer.css">
+
+
+    <!-- <link rel="stylesheet" href="../icon/iconfont.css"> -->
+</head>
+
+<body>
+    <div class="container">
+        <!-- header 导航 -->
+        <div id="header">
+            <div class="header">
+                <!-- 导航LOGO -->
+                <a class="header0" href="">
+                    <img src="../img/jiangnanlvyou.png" alt="">
+                </a>
+                <!-- right -->
+                <ul class="header1">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="projectcenter.html">服务项目</a></li>
+                    <li><a href="index.html#recommend_four_h1one">新闻中心</a></li>
+                    <li><a href="onlinereservatuon.html">在线预定</a></li>
+                    <li><a href="about_us.html">关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 轮播图 -->
+        <div id="boxhdp">
+            <ul id="img">
+                <li class="current"><img src="../img/ico/1.jpg"></li>
+                <li><img src="../img/ico/2.jpg"></li>
+                <li><img src="../img/ico/1 (6).jpg"></li>
+                <li><img src="../img/ico/1 (2).jpg"></li>
+                <li><img src="../img/ico/3.jpg"></li>
+            </ul>
+            <!-- 轮播小点点 -->
+            <ul id="li">
+                <li class="on"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <!-- 清除浮动 -->
+            <!-- <div style="clear: both;"></div> -->
+            <!-- 轮播翻页 -->
+            <div class="an" id="an">
+                <!-- left -->
+                <a href="javascript:;" id="prev" class="an-a1">＜</a>
+                <!-- right -->
+                <a href="javascript:;" id="next" class="an-a2">＞</a>
+            </div>
+            <!-- 边框字 -->
+            <div id="center_one">
+                <h2>关于我们</h2>
+                <p>了解我们的团队</p>
+            </div>
+        </div>
+        <div class="about_us1">
+            <!-- 关于我们标题 -->
+            <div class="about_us_one">
+                <h1>关于我们</h1>
+                <p>Company Profile</p>
+                <img src="../img/imga/1.png" alt="">
+            </div>
+            <!-- 关于我们图片和文字 -->
+            <div class="about_us1_one">
+                <img src="../img/about_us/1.jpg" alt="">
+                <p>
+                    xxxx国际旅行社有限公司成为一类国际旅游社，主营国内地接、入境接待国内出游、国际出境游、代办签证、修学旅行、商务考察、会务接待等业务项目，公司
+                    经营场所400平方米，在职职工100人，设有管理中心、财务中心、国内地接中心、国内出游中心、国际入境中心、中国公民出境中心、网络信息中心等。企业 规模和经济实力以及经济效益已在xx市同行业排序前列。
+                </p>
+                <img src="../img/about_us/2.jpg" alt="">
+                <p>
+                    公司成立以来，注重质量和信誉，强化内部管理，现已获得良好的品牌效应，诚信服务，规范经营，获得xx市政府多次嘉奖，为xx旅游业争得了荣誉，得到了xx市民和社会各界的好评和认可，在全国旅游界引起了强烈的反响和好评。
+                </p>
+                <p>
+                    公司经营场所400平方米，在职职工100人，设有管理中心、财务中心、国内地接中心、国内出游中心、国际入境中心、中国公民出境中心、网络信息中心等。企业规模和经济实力以及经济效益已在xx市同行业排序前列。
+                </p>
+            </div>
+        </div>
+        <!-- 带上心灵去旅行  让生活更美好 -->
+        <div class="about_us2">
+            <!-- 带上心灵去旅行  让生活更美好 -->
+            <div class="about_us_one0">Travel</div>
+            <div style="padding-top: 16px; position: relative;" class="about_us_one">
+                <h1>带上心灵去旅行&nbsp;&nbsp;让生活更美好</h1>
+                <p>Travel makes life better</p>
+                <img src="../img/imga/1.png" alt="">
+            </div>
+            <!-- 地图 -->
+            <div id="container"></div>
+            <script type="text/javascript" src="../js/about_us.js"></script>
+            <!-- 联系 -->
+            <div class="about_us2_tow">
+                <img src="../icon/2.png" alt="">
+                <p style="margin-top: 5px;">地址：驻马店幼儿师范高等专科学校</p>
+                <p>电话：400-000 0000</p>
+                <p>邮箱：Youremail@xx.com</p>
+            </div>
+        </div>
+        <!-- 不要犹豫 马上出发 -->
+        <div class="about_us3">
+            <!-- 不要犹豫 马上出发背景文字 -->
+            <h2>不要犹豫&nbsp;&nbsp;马上出发</h2>
+            <!-- 立即预约 -->
+            <div>
+                <a href="onlinereservatuon.html"><span>立即预约</span></a>
+            </div>
+        </div>
+        <!-- 底页 -->
+        <div class="footer">
+            <div class="footer_header">
+                <a href="index.html">首页</a><span>|</span>
+                <a href="projectcenter.html">服务项目</a><span>|</span>
+                <a href="./index.html#recommend_four_h1one">新闻中心</a><span>|</span>
+                <a href="onlinereservatuon.html">在线预定</a><span>|</span>
+                <a href="about_us.html">关于我们</a>
+            </div>
+            <h4>江南旅游&nbsp;您的旅游好帮手</h4>
+            <p>jiangnan Your Good Helper Of Tourism</p>
+            <div class="footer_div">2023&nbsp;江南旅游&nbsp;All Right Reserved.&nbsp;&nbsp; 豫ICP备XXXXXXXX号</div>
+        </div>
+    </div>
+</body>
+<!-- 轮播图js -->
+<script src="../js/wrapper.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

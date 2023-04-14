@@ -1,0 +1,16 @@
+{
+  "id": "4012645",
+  "name": "travel",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3858013",
+      "name": "飞机",
+      "font_class": "feiji_",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    }
+  ]
+}

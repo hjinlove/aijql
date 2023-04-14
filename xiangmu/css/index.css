@@ -1,0 +1,412 @@
+
+/* recommend 今日推荐文字 */
+.recommend_word{
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+.recommend_word h1{
+    margin: 5px 0;
+    color: rgb(67, 67, 67);
+    font-size: 28px;
+    font-family: SimHei;
+    margin-top: 20px;
+}
+.recommend_word p{
+    margin: 0 0 5px 0;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: rgb(136, 136, 136);
+}
+/* recommend 今日推荐字下小图 */
+.recommend_word img{
+    width: 159px;
+    height: 31px;
+}
+/* recommend_pic今日推荐图片 */
+.recommend_pic{
+    margin-top: 20px;
+    padding: 0 30px;
+    /* 为元素指定的任何内边距和边框都将在已设定的宽度和高度内进行绘制 */
+    box-sizing: border-box;
+    height: 400px;
+    /* 弹性盒子 */
+    display: flex;
+    justify-content: space-between;
+}
+/* 左边图片 */
+.pic_left {
+    width: 280px;
+    height: 400px;
+    overflow: hidden;
+    margin-right: 20px;
+    position: relative;
+}
+
+/* 今日推荐所有图片hover */
+.pic_left,.right_top,.recommend-img3,.recommend-img4{
+    transition: all 2s;
+}
+
+
+/* 图片上面的hover字体 */
+.left_p{
+    text-align: center;
+    font-family: SimHei;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: aliceblue;
+    opacity: 0;
+    transition: all 2s;
+}
+.left_p h1{
+    font-weight:bold;
+    text-decoration:none;
+    font-size:40px;
+    font-family:simhei;
+
+}
+.left_p p{
+    font-size:14px;
+    font-family:simhei;
+}
+.pic_left:hover .left_p {
+    opacity: 1;
+}
+/* 右边图片 */
+.pic_right{
+    width: 70%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* 右上图片 */
+.right_top {
+    overflow: hidden;
+    height: 190px;
+    width: 100%;
+}
+.right_top a>img,.recommend-img3 a>img,.recommend-img4 a>img {
+    width: 100%;
+    height: 100%;
+}
+/* 图片右上面的hover字体 */
+.right_p_top{
+    text-align: center;
+    font-family: SimHei;
+    position: relative;
+    bottom: 88%;
+    color: rgb(250, 246, 246);
+    opacity: 0;
+    transition: all 2s;
+}
+.right_p_top h1{
+    font-weight:bold;
+    text-decoration:none;
+    font-size:40px;
+    font-family:simhei;
+
+}
+.right_p_top p{
+    font-size:14px;
+    font-family:simhei;
+}
+.right_top:hover .right_p_top {
+    opacity: 1;
+} 
+/* 右下图片 */
+.right_bottom {
+    height: 190px;
+    width: 100%;
+    display: flex;
+    /* overflow: hidden; */
+    justify-content: space-between;
+}
+.right_bottom div {
+    display: block;
+    width: 48%;
+}
+.right_bottom img {
+    width: 100%;
+}
+/* 右下图片左字 */
+.right_bottom_p{
+    position: relative;
+    bottom: 88%; 
+    left: 20%;
+}
+.right_bottom_p h1{
+    width: 200px;
+}
+.right_bottom_p {
+    text-align: center;
+    font-family: SimHei;
+    color: rgb(250, 246, 246);
+    opacity: 0;
+    transition: all 2s;
+}
+/* 右下图片右字 */
+.right_bottom_p2{
+    position: relative;
+    bottom: 88%;
+    left: 25%;
+}
+/* 图片右下面的hover字体 */
+.right_bottom_p2{
+    text-align: center;
+    font-family: SimHei;
+    color: rgb(250, 246, 246);
+    opacity: 0;
+    transition: all 2s;
+}
+.right_bottom_p h1,.right_bottom_p2 h1{
+    font-weight:bold;
+    text-decoration:none;
+    font-size:40px;
+    font-family:simhei;
+
+}
+.right_bottom_p p,.right_bottom_p2 p{
+    font-size:14px;
+    font-family:simhei;
+}
+.right_bottom_p:hover,.right_bottom_p2:hover {
+    opacity: 1;
+} 
+/* 今日推荐全部hover */
+.pic_left:hover,.right_top:hover,.recommend-img3:hover,.recommend-img4:hover {
+    transform: scale(1.1, 1.1);
+}
+
+/* 江南旅游  激发您的旅游灵感页面的背景图*/
+.recommend_two{
+    text-align: center;
+    background-image: url(../img/ico/3.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    margin-top: 3%;
+    font-family: SimHei;
+    color: rgb(255, 255, 255);
+}
+/* 某某旅游  激发您的旅游灵感页面 */
+.recommend_two h1{
+    font-size: 28px;
+    padding-top: 30px;
+    margin: 0;
+    margin-top: 10px;
+}
+#recommend_two1{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    margin: 0;
+}
+#recommend_two2{
+    position: relative;
+    left: 43.5%;
+    width: 159px;
+    height: 35px;
+    border-top: 5px solid #ffffff;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+/* 小图标 */
+.recommend_two img{
+    width: 159px;
+    height: 31px;
+    padding-bottom: 35px;
+    
+}
+/* 文字 */
+.recommend_two p{
+    margin: 10px 0px 1px 0px;
+    color: rgb(255, 255, 255); 
+    line-height: 140%; 
+    font-family: 华文细黑; 
+    font-size: 18px;
+}
+/* 了解更多 */
+.recommend_two2{
+    border: 2px solid #ffffff;
+    margin-top: 12%;
+    width: 160px;
+    height: 45px;
+    position: relative;
+    left: 43.5%;
+    bottom: 30px;
+}
+.recommend_two2:hover{
+    border: 2px solid #e69138;
+}
+a>span{
+    color: #ffffff;
+    font-family: SimHei;
+    font-size: 18px;
+    position:relative;
+    top: 30%;
+}
+
+/* 线路大全 */
+.recommend_three{
+    text-align: center;
+    font-family:SimHei ;
+}
+
+/* 标题图片 */
+.recommend_three img{
+    width: 159px;
+    height: 31px;
+}
+/* 线路大全图片 */
+.recommend_three_img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 84px;
+}
+/* 线路大全图片边框 */
+.recommend_three_img a{
+    width: 300px;
+    margin: 8px 0px;
+    border: 1px solid #d9d9d9;
+    transition: all 2s;
+}
+.recommend_three_img a:hover{
+    border: 1px solid #ff9900;
+}
+/* 图片大小 */
+.recommend_three_img img{
+    margin-top: 15px;
+    height: 200px;
+    width: 260px;
+}
+/* h1字体 */
+.recommend_three_img h1{
+    font-family: SimHei;
+    font-size: 28px;
+    color: #ff9900;
+    margin-top: 0px;
+    transition: all 2s;
+}
+.recommend_three_img h1:hover{
+    color: #ff9900;
+}
+.recommend_three_p{
+    
+    font-size: 12px;
+    color: #666666;
+}
+.recommend_three_p:hover{
+    color: #f1c232;
+}
+
+.recommend_three_img p{
+    color: #666;
+    font-size: 16px;
+    margin: 0px;
+}
+
+/* 中划线 */
+#recommend_three_span{
+    text-decoration: line-through;
+    color: #666;
+    font-size: 16px;
+    
+}
+.recommend_three_img span{
+    font-size: 18px;
+    color: crimson;
+    font-family: Microsoft YaHei;
+    
+}
+/* 新闻中心 */
+.recommend_four{
+    font-family:SimHei ;
+    margin: 0px 7%;
+}
+.recommend_four_one{
+    text-align: center;
+}
+/* 第一个标题 */
+#recommend_four_h1{
+    margin-bottom: 0;
+    color: rgb(67, 67, 67);
+    font-family: SimHei;
+    font-size: 28px;
+}
+/* 标题p */
+#recommend_four_p{
+    margin: 5px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: rgb(67, 67, 67);
+    padding: 0;
+}
+/* 标题图片 */
+#recommend_four_one_img{
+    width: 159px;
+    height: 31px;
+}
+
+/* 新闻中心h3标题 */
+.recommend_four h3{
+    /* 清除浮动 */
+    clear: both;
+    margin: 0;
+    margin-top: 10px;
+    
+}
+.recommend_four h3>a{
+    display: inline-block;
+    font-family: SimHei;
+    font-size: 18px;
+    color: #333;
+    line-height: 140%;
+    margin-bottom: 10px;
+    /* transition: all 1s; */
+}
+.recommend_four h3>a:hover{
+    color: #ff9900;
+}
+/* 新闻中心h3标题里面的图片 */
+.recommend_four img{
+    margin: 0 auto;
+    /* position: relative; */
+    height: 90px;
+    width: 130px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+/* 图片浮动 */
+.recommend_four1>img,.recommend_four2>img,.recommend_four3 img,.recommend_four4 img{
+    float: left;
+}
+
+.recommend_four p{
+display: block;
+    margin: 0;
+    font-family: SimHei;
+    font-size: 12px;
+    line-height: 16px !important;
+    color: #5A5A5A;
+    font-weight: normal;
+    padding-left: 13%;
+}
+
+.recommend_four1_p{
+    clear: both;
+    text-align: right;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+/* 全部h1标题 */
+.recommend_three>h1,#recommend_four_h1{
+    margin-bottom: 0;
+}
+/* 全部h1标题下一个的p */
+.recommend_three>p,#recommend_four_p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
